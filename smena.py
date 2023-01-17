@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 
-token = '5660977582:AAHLgAXWkrR_1MAHAjsorTTqXPF2n4wsjuM'
+token = ''
 bot = telebot.TeleBot(token)
 
 joined_file = open("documents/users_1.txt", "r")
