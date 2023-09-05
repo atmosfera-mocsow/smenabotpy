@@ -9,6 +9,11 @@ micromamba env create -yq -f ./env.yml -p /opt/micromamba_envs/smena-bot-env
 micromamba activate smena-bot-env
 ```
 
+Скопировать env файл и обновить в нём токены
+```
+cp ./.env.example ./.env
+```
+
 Путь к интерпретатору
 ```
 /opt/micromamba_envs/smena-bot-env
