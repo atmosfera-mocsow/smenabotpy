@@ -110,7 +110,7 @@ def start(message):
     TO_CHAT_ID = 736959096
     bot.forward_message(TO_CHAT_ID, message.chat.id, message.message_id)
     bot.send_message(message.chat.id, text="Привет, {0.first_name}! \n\nПо вопросам технической помощи "
-                                           "вк: vk.com/v_mango_d\nтг: @DanilkovvD".format(message.from_user))
+                                           "@demivlev".format(message.from_user))
     time.sleep(0.5)
     bot.send_message(message.chat.id, text="Нажимая данную кнопку, вы подтвердждаете, что не будете передавать название, ссылку или другую информацию позволяющую получить доступ к боту третьим лицам", reply_markup=pod)
 
